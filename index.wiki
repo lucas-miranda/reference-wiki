@@ -1,21 +1,17 @@
 = Quick Knowledge Reference =
 
 == Vim ==
-    * [[Vim]]
-    * [[Plugins]]
+    * [[Vim/Vim|Vim]]
+    * [[Vim/Plugins|Plugins]]
 
 == Languages ==
-    * [[C#]]
-    * [[Rust]]
+    * [[Languages/C-Sharp|C#]]
+    * [[Languages/Rust|Rust]]
 
 == OS ==
     === Linux ===
-        * [[Linux|General]]
-        * [[Arch]]
-        * [[Debian]]
-
-    === Windows ===
-        * [[Windows 10]]
+        * [[OS/Linux/Linux|General]]
+        * [[OS/Linux/Arch|Arch]]
     
 == Tools ==
-    * [[Git]]
+    * [[Tools/Git|Git]]

@@ -1,0 +1,21 @@
+= Quick Knowledge Reference =
+
+== Vim ==
+    * [[Vim]]
+    * [[Plugins]]
+
+== Languages ==
+    * [[C#]]
+    * [[Rust]]
+
+== OS ==
+    === Linux ===
+        * [[Linux|General]]
+        * [[Arch]]
+        * [[Debian]]
+
+    === Windows ===
+        * [[Windows 10]]
+    
+== Tools ==
+    * [[Git]]

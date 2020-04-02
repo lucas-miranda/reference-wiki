@@ -1,0 +1,15 @@
+= General Linux =
+
+== Utilities ==
+
+* df
+    Shows file systems info, such as available/utilized space, usage, mount point
+    
+    # df -h
+        Enable human readable formats, instead of plain bytes
+
+* du
+    Shows disk space usage for files or directories (recursively)
+    
+    # du -h
+        Enable human readable formats, instead of plain bytes

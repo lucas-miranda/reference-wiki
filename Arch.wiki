@@ -1,0 +1,13 @@
+= Arch =
+
+== Packages ==
+
+Packages from official repositories can be installed using:
+    * pacman -S package-name
+
+When installing packages from {{aur.archlinux.org}}:
+    1. git clone url
+    2. cd package-folder/
+    3. makepkg -si
+        * *-s* / *--syncdeps*: Installs missing dependencies through pacman
+        * *-i* / *--install*: Installs package after succesfully generating it

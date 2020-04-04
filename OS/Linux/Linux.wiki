@@ -13,3 +13,36 @@
     
     # du -h
         Enable human readable formats, instead of plain bytes
+        
+== Fonts ==
+
+* Emoji doesn't display correctly or some of them are lacking
+    1. Install {{https://www.google.com/get/noto/#emoji-zsye-color|Google Noto Color Emoji Font}} at `~/.fonts/`.
+    2. Create a file at `~/.config/fontconfig/fonts.conf` with the following contents:
+        {{{xml
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+        <fontconfig>
+            <alias>
+                <family>serif</family>
+                <prefer>
+                  <family>Noto Color Emoji</family>
+                </prefer>
+            </alias>
+            <alias>
+                <family>sans-serif</family>
+                <prefer>
+                  <family>Noto Color Emoji</family>
+                </prefer>
+            </alias>
+            <alias>
+                <family>monospace</family>
+                <prefer>
+                  <family>Noto Color Emoji</family>
+                </prefer>
+            </alias>
+        </fontconfig>`
+        }}}
+    3. fc-cache -f -v
+    
+    reference: {{https://victor.kropp.name/blog/emoji-on-linux/}}

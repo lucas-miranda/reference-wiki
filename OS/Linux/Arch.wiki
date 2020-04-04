@@ -2,10 +2,13 @@
 
 == Packages ==
 
-Packages from official repositories can be installed using:
-    * pacman -S package-name
+* Packages from official repositories can be installed using:
+    # pacman -S package-name
 
-When installing packages from {{aur.archlinux.org}}:
+* Upgrading packages:
+    # pacman -Syu
+
+* When installing packages from {{aur.archlinux.org}}:
     1. git clone url
     2. cd package-folder/
     3. makepkg -si

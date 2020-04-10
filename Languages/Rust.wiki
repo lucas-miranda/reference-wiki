@@ -1,1 +1,6 @@
 = Rust =
+
+== Cross Compiling ==
+
+Don't struggle with `cargo --target`, use:
+    1. {{https://github.com/rust-embedded/cross|cross}}

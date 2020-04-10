@@ -1,5 +1,11 @@
 = Arch =
 
+== Must Have Packages ==
+
+    * {{https://github.com/Jguer/yay|yay}}
+        Arch package helper.
+        Because sometimes pacman isn't enough.
+
 == Packages ==
 
 * Packages from official repositories can be installed using:

@@ -14,6 +14,11 @@
     # du -h
         Enable human readable formats, instead of plain bytes
         
+== X ==
+        
+To get a window info (e.g wmclass):
+    # xprop
+        
 == Fonts ==
 
 * Emoji doesn't display correctly or some of them are lacking

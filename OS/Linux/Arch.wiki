@@ -8,6 +8,8 @@
 
 == Packages ==
 
+=== Pacman ===
+
 * Packages from official repositories can be installed using:
     # pacman -S package-name
 
@@ -20,3 +22,8 @@
     3. makepkg -si
         * *-s* / *--syncdeps*: Installs missing dependencies through pacman
         * *-i* / *--install*: Installs package after succesfully generating it
+
+=== Yay ===
+
+* Clear unused dependencies:
+    # yay -Yc

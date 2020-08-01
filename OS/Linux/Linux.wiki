@@ -55,3 +55,12 @@ Screen Tearing:
     3. fc-cache -f -v
     
     reference: {{https://victor.kropp.name/blog/emoji-on-linux/}}
+
+== Browsers ==
+
+* Netflix arguing about not using last version of widevine:
+
+    1. Somehow get widevine
+        - Downloading it somewhere
+        - Get google chrome or chromium
+    2. Change `/usr/lib/opera/resources/widevine_config.json` to include `/usr/lib/chromium/WidevineCdm`

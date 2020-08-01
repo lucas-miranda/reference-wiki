@@ -16,3 +16,6 @@
 == Tools ==
     * [[Tools/List|List of Tools]]
     * [[Tools/Git|Git]]
+
+== Terminals ==
+    * [[Terminals/Kitty|Kitty]]

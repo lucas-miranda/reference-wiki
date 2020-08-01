@@ -1,0 +1,5 @@
+= Kitty =
+
+== Themes ==
+
+    * {{https://github.com/dexpota/kitty-themes|Kitty Themes}}

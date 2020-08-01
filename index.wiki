@@ -16,6 +16,7 @@
 == Tools ==
     * [[Tools/List|List of Tools]]
     * [[Tools/Git|Git]]
+    * [[Tools/Davinci Resolve|Davinci Resolve]]
 
 == Terminals ==
     * [[Terminals/Kitty|Kitty]]

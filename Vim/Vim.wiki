@@ -1,1 +1,7 @@
 = Vim =
+
+* Line Endings
+    - To convert from DOS to Unix:
+        `:set ff=unix`
+    - To remove \r trailing characters:
+        `:%s/^M//g`

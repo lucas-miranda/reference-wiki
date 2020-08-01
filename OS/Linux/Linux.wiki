@@ -19,6 +19,10 @@
 To get a window info (e.g wmclass):
     # xprop
         
+Screen Tearing:
+    * Some window managers (e.g QTile or AwesomeWM) doesn't provides a compositor. Using a standlone compositor may fix the problem, such as:
+        - {{https://github.com/yshui/picom|Picom}}
+        
 == Fonts ==
 
 * Emoji doesn't display correctly or some of them are lacking

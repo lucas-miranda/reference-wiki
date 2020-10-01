@@ -11,6 +11,7 @@
 == OS ==
     === Linux ===
         * [[OS/Linux/Linux|General]]
+        * {{https://github.com/lucas-miranda/linux-customization|Customization}}
         * [[OS/Linux/Arch|Arch]]
     
 == Tools ==

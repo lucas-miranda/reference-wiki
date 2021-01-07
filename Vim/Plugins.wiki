@@ -1,1 +1,9 @@
 = Vim Plugins =
+
+== {{https://github.com/OmniSharp/omnisharp-vim|omnisharp-vim}} ==
+
+=== Setting Up ===
+
+# Arch Linux:
+    To properly work and load a solution with all it's projects.
+    Arch needs *mono-msbuild-sdkresolver*, don't use *mono-msbuild*, as it seems to not work as expected.

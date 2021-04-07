@@ -1,1 +1,11 @@
 = Git =
+
+== Quick Actions ==
+
+* Pull without overwriting local files
+    *!* `Use with caution`
+    
+    *λ* git pull `[remote]` `[branch]` --allow-unrelated-histories
+
+    Normally I use this before sending my first commit to a repository, to sync local one with the upstream.
+    Alternatively, stash can be used instead of this (and is a safer way, if you don't know what you are doing).

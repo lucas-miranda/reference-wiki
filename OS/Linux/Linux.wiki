@@ -4,25 +4,25 @@
 
 * df
     Shows file systems info, such as available/utilized space, usage, mount point
-    
+
     # df -h
         Enable human readable formats, instead of plain bytes
 
 * du
     Shows disk space usage for files or directories (recursively)
-    
+
     # du -h
         Enable human readable formats, instead of plain bytes
-        
+
 == X ==
-        
+
 To get a window info (e.g wmclass):
     # xprop
-        
+
 Screen Tearing:
     * Some window managers (e.g QTile or AwesomeWM) doesn't provides a compositor. Using a standlone compositor may fix the problem, such as:
         - {{https://github.com/yshui/picom|Picom}}
-        
+
 == Fonts ==
 
 * Emoji doesn't display correctly or some of them are lacking
@@ -53,7 +53,7 @@ Screen Tearing:
         </fontconfig>`
         }}}
     3. fc-cache -f -v
-    
+
     reference: {{https://victor.kropp.name/blog/emoji-on-linux/}}
 
 == Browsers ==

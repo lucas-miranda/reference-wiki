@@ -4,7 +4,7 @@
 == Using MP4 As Input ==
 
     First it will need to be converted to an intermediate format to davinci resolve (at free version) be able to read it:
-    
+
 {{{
     ffmpeg -i input.mp4 \
         -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p \
@@ -13,7 +13,7 @@
 }}}
 
     File output will be really big, so there is a alternative, but with loss of quality:
-    
+
 {{{
     ffmpeg -i input.mp4 \
         -c:v mpeg4 -qscale:v 1 \

@@ -4,7 +4,7 @@
 
 * Pull without overwriting local files
     *!* `Use with caution`
-    
+
     *λ* git pull `[remote]` `[branch]` --allow-unrelated-histories
 
     Normally I use this before sending my first commit to a repository, to sync local one with the upstream.

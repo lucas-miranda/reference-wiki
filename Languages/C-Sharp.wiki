@@ -1,1 +1,15 @@
 = C# =
+
+== Language Server ==
+
+When using {{https://github.com/OmniSharp/omnisharp-roslyn|OmniSharp}} use following steps to configure it to use system-wide mono configurations.
+
+* *Linux*
+    1. Use lastest omnisharp-mono release
+    2. Remove *.msbuild/* sub-directory
+        So we can force to use system installed one
+    3. Start server using:
+        {{{sh
+            mono --assembly-loader=strict "$PATH_TO_OMNISHARP_MONO/OmniSharp.exe" -lsp --hostPID $VIM_PID
+        }}}
+    4. Enjoy!

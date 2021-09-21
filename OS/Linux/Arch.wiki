@@ -27,3 +27,6 @@
 
 * Clear unused dependencies:
     # yay -Yc
+
+* Clear cache:
+    # yay -Scc

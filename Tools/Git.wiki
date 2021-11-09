@@ -1,5 +1,10 @@
 = Git =
 
+== Tips ==
+
+* `restore`
+    1. If you use `restore` regularly, don't *ever ever* use it without thinking about changes you are discarding. Always be sure of what you are doing, because there is *no* way to undo a restore action through git.
+
 == Quick Actions ==
 
 * Pull without overwriting local files

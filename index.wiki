@@ -13,6 +13,7 @@
         * [[OS/Linux/Linux|General]]
         * {{https://github.com/lucas-miranda/linux-customization|Customization}}
         * [[OS/Linux/Arch|Arch]]
+        * [[OS/Linux/Nvidia|Nvidia]]
 
 == Tools ==
     * [[Tools/List|List of Tools]]

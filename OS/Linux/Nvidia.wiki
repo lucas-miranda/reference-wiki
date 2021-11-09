@@ -1,0 +1,22 @@
+= Nvidia (Linux) =
+
+== Proprietary ==
+
+=== Installing Tips ===
+
+* Modules
+    Don't forget to include modules: `nvidia`, `nvidia_modeset`, `nvidia_uvm` and `nvidia_drm`, to the initramfs¹, this step is very important to completely avoid `mesa` being loaded, as OpenGL driver, by the system before `nvidia` could.
+
+    To ensure `nvidia` is being used as OpenGL driver, instead `mesa`, check it through:
+
+        *λ* glxinfo | grep OpenGL
+
+    It should *not* mention `mesa`, or something like `llvmpipe`, anywhere, but instead should display something like `NVIDIA` along with your card name and infos.
+
+-------------
+
+1. initramfs configuration file is located at `/etc/mkinitcpio.conf`
+
+== Nouveau ==
+
+TODO
